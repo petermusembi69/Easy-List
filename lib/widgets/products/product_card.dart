@@ -77,7 +77,7 @@ class ProductCard extends StatelessWidget {
                                     color: Theme.of(context).accentColor,
                                     onPressed: () {
                                       model.selectProduct(products.id);
-                                      print(1);
+                                    
                                       Navigator.push(
                                           context,
                                           MaterialPageRoute(
