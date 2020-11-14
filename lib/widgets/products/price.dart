@@ -15,7 +15,7 @@ Price({this.price});
           color: Theme.of(context).accentColor,
           borderRadius: BorderRadius.circular(5.0)),
       child: Text(
-        '\Ksh12$price',
+        '$price',
         style: TextStyle(fontSize: 15.0, color: Colors.white),
       ),
     );
