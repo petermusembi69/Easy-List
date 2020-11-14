@@ -56,7 +56,7 @@ class _ProductListPageState extends State<ProductListPage> {
                         NetworkImage(model.allProducts[index].imageurl),
                   ),
                   title: Text(model.allProducts[index].title),
-                  subtitle: Text('\$${model.allProducts[index].price}'),
+                  subtitle: Text('${model.allProducts[index].price}'),
                   trailing: _iconButtons(context, index, model),
                 ),
                 Divider(),
