@@ -53,6 +53,10 @@ class ProductPage extends StatelessWidget {
                   ),
                   Container(
                     padding: EdgeInsets.all(10.0),
+                    child: Text('Price ${product.price.toString()}'),
+                  ),
+                  Container(
+                    padding: EdgeInsets.all(10.0),
                     child: Text(
                       product.userEmail,
                       textAlign: TextAlign.center,
